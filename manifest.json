@@ -1,0 +1,29 @@
+{
+   "name": "Darkkavish",
+   "description": "Go from Dark Mode to Light Mode With Kavish",
+   "version": "1.0.0",
+   "manifest_version":2,
+   "background": {
+    "scripts": [
+        "popup.js"
+
+    ],
+    "persistent":true
+   },
+   "browser_action":{
+       "default_title":"DarkKavish",
+       "default_popup":"popup.html",
+       "default_icon":"logo.png"
+
+   },
+   "icons":{
+       "128" : "logo.png"
+   },
+   "permissions": [
+       "https://*/*",
+       "http://*/*",
+       "tabs"
+
+   ]
+
+}
